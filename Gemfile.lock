@@ -120,7 +120,8 @@ GEM
       omniauth-oauth (~> 1.1)
       rack
     public_suffix (3.0.1)
-    puma (3.11.0)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.0.3)
     rack-test (0.8.0)
       rack (>= 1.0, < 3)
@@ -213,7 +214,7 @@ DEPENDENCIES
   omniauth-facebook
   omniauth-github
   omniauth-twitter
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.1.4)
   sass-rails (~> 5.0)
   selenium-webdriver
